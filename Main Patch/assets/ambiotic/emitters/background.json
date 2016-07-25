@@ -1,0 +1,65 @@
+[
+    {
+        "Name" : "BkgCaves",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.cave_loop",
+        "Conditions" : "#UnderGround# && !Player.IsExposed",
+        "Restrict" : "Player.Submerged",
+        "Volume" : {
+            "Type" : "Constant",
+            "Value" : 0.5
+        }
+    },
+
+    {
+        "Name" : "DayBkgGrassBugs",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.day_bugs_loop",
+        "Conditions" : "LS.Temperature >= 0.5 && LS.Temperature < 1.80 && #IsDay# && #BugPlants#",
+        "Restrict" : "#UnderGround# || Player.Submerged || LS.Salinity >= 0.1 || #IsJungle# || #IsSpace#",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "0.1*#Muffle#"
+        }
+    },
+
+    {
+        "Name" : "NightBkgGrassBugs",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.night_bugs_loop",
+        "Conditions" : "LS.Temperature >= 0.5 && LS.Temperature < 1.80 && #BugPlants#",
+        "Restrict" : "#UnderGround# || Player.Submerged || #IsDay# || LS.Salinity >= 0.1 || #IsJungle# || #IsSpace#",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "0.1*#Muffle#"
+        }
+    },
+
+    {
+        "Name" : "HighWind",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.inst_whistle_wind_loop",
+        "Conditions" : "Player.Y >= 100 && Player.Y < 400",
+        "Restrict" : "#UnderGround# || Player.Submerged || #IsSpace# || #IsDead#",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "(1 - vclmp(Math.abs(Player.Y - 250) / 150.0)) * #Muffle#;"
+        }
+    },
+
+    {
+        "Name" : "Rain",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.inst_rain_loop",
+        "Conditions" : "World.IsRaining && LS.Humidity > 0.3",
+        "Restrict" : "((#UnderGround#) && !Player.IsExposed) || Player.Submerged",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "(Player.IsExposed ? 0.2 : 0.1)*(World.IsRaining ? 1.0 : 0.0)"
+        },
+        "Pitch" : {
+            "Type" : "Scripted",
+            "Code" : "(Player.IsExposed ? 1.0 : 0.5)"
+        }
+    }
+]

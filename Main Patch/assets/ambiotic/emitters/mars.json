@@ -1,0 +1,25 @@
+[
+    {
+        "Name" : "Mars",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.mars_wind_loop",
+        "Conditions" : "World.Biome == 'marsFlat'",
+        "Restrict" : "#UnderGround#",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "0.35*#Muffle#"
+        }
+    },
+	
+	{
+        "Name" : "MarsHighWind",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.inst_whistle_wind_loop",
+        "Conditions" : "World.Biome == 'marsFlat' && Player.Y >= 100 && Player.Y < 300",
+        "Restrict" : "(#UnderGround#) || Player.Submerged",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "(1 - vclmp(Math.abs(Player.Y - 200) / 100.0)) * 0.35*#Muffle#"
+        }
+    }
+]

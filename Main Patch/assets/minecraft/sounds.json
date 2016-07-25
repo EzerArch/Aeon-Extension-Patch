@@ -1,0 +1,39 @@
+{
+  "mob.chicken.step": {
+    "category": "neutral",
+    "sounds": [
+      "mob/chicken/step1",
+      "mob/chicken/step2"
+    ]
+  },
+  "mob.irongolem.death": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/death"
+    ]
+  },
+  "mob.irongolem.hit": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/hit1",
+      "mob/irongolem/hit2",
+      "mob/irongolem/hit3",
+      "mob/irongolem/hit4"
+    ]
+  },
+  "mob.irongolem.throw": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/throw"
+    ]
+  },
+  "mob.irongolem.walk": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/walk1",
+      "mob/irongolem/walk2",
+      "mob/irongolem/walk3",
+      "mob/irongolem/walk4"
+    ]
+  }
+}

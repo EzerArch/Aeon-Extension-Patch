@@ -1,0 +1,25 @@
+[
+    {
+        "Name" : "Venus",
+        "Type" : "Looping",
+        "Sound" : "minecraft:ambient.weather.thunder",
+        "Conditions" : "World.Biome == 'Venus'",
+        "Restrict" : "#UnderGround#",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "0.35*#Muffle#"
+        }
+    },
+	
+	{
+        "Name" : "VenusHighWind",
+        "Type" : "Looping",
+        "Sound" : "ambiotic:bkgs.inst_whistle_wind_loop",
+        "Conditions" : "World.Biome == 'Venus' && Player.Y >= 100 && Player.Y < 600",
+        "Restrict" : "(#UnderGround#) || Player.Submerged",
+        "Volume" : {
+            "Type" : "Scripted",
+            "Code" : "(1 - vclmp(Math.abs(Player.Y - 350) / 250.0)) * 1.2*#Muffle#"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+language.name=English
+language.region=US
+language.code=en_US
+
+// Items
+item.BiblioGlasses.readingglasses.name=Safety Glasses
+item.BiblioGlasses.tintedglasses.name=Tinted Safety Glasses
+item.BiblioGlasses.monocle.name=Scouter
+item.BiblioClipboard.name=E-Clipboard

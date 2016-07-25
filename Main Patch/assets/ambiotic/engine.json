@@ -1,0 +1,291 @@
+{
+    "DefaultVars" : true,
+
+    "HelperJS" : "ambiotic:helpers.js",
+
+    "EmitterList" : [
+        "ambiotic:emitters/background.json",
+
+        "ambiotic:emitters/swamp.json",
+        "ambiotic:emitters/beach.json",
+        "ambiotic:emitters/water.json",
+        "ambiotic:emitters/forest.json",
+        "ambiotic:emitters/savanna.json",
+        "ambiotic:emitters/plains.json",
+        "ambiotic:emitters/jungle.json",
+        "ambiotic:emitters/coldforest.json",
+		
+		"ambiotic:emitters/venus.json",
+		"ambiotic:emitters/mars.json",
+		"ambiotic:emitters/titan.json"
+		
+    ],
+
+    "Scanners" : [
+        {
+            "Type" : "BlockScanner",
+            "Name" : "LS",
+            "XSize" : 16,
+            "YSize" : 16,
+            "ZSize" : 16
+        }
+    ],
+
+    "Variables" : [
+        {
+            "Name" : "IsExposed",
+            "Type" : "Exposed",
+            "AirPermeableBlocks" : [
+                "minecraft:air",
+                "minecraft:fire",
+                "minecraft:portal",
+                "minecraft:web",
+                "minecraft:snow_layer",
+
+                "minecraft:vine",
+                "minecraft:reeds",
+                "minecraft:yellow_flower",
+                "minecraft:red_flower",
+                "minecraft:brown_mushroom",
+                "minecraft:red_mushroom",
+                "minecraft:cocoa",
+                "minecraft:potatoes",
+                "minecraft:carrots",
+                "minecraft:pumpkin_stem",
+                "minecraft:melon_stem",
+                "minecraft:waterlily",
+                "minecraft:double_plant",
+                "minecraft:deadbush",
+                "minecraft:tallgrass",
+                "minecraft:nether_wart",
+                "treeLeaves",
+
+                "minecraft:fence",
+                "minecraft:spruce_fence",
+                "minecraft:birch_fence",
+                "minecraft:jungle_fence",
+                "minecraft:dark_oak_fence",
+                "minecraft:acacia_fence",
+                "minecraft:nether_brick_fence",
+                "minecraft:cobblestone_wall",
+                "minecraft:iron_bars",
+                "minecraft:fence_gate",
+                "minecraft:spruce_fence_gate",
+                "minecraft:birch_fence_gate",
+                "minecraft:jungle_fence_gate",
+                "minecraft:dark_oak_fence_gate",
+                "minecraft:acacia_fence_gate",
+
+                "minecraft:brewing_stand",
+                "minecraft:torch",
+                "minecraft:ladder",
+                "minecraft:wall_sign",
+                "minecraft:standing_sign",
+                "minecraft:standing_banner",
+                "minecraft:wall_banner",
+                "minecraft:skull",
+                "minecraft:carpet",
+                "minecraft:flower_pot",
+                "minecraft:bed",
+
+                "minecraft:golden_rail",
+                "minecraft:detector_rail",
+                "minecraft:rail",
+                "minecraft:activator_rail",
+                "minecraft:lever",
+                "minecraft:stone_pressure_plate",
+                "minecraft:wooden_pressure_plate",
+                "minecraft:unlit_redstone_torch",
+                "minecraft:redstone_torch",
+                "minecraft:stone_button",
+                "minecraft:tripwire_hook",
+                "minecraft:wooden_button",
+                "minecraft:light_weighted_pressure_plate",
+                "minecraft:heavy_weighted_pressure_plate",
+                "minecraft:unpowered_comparator",
+                "minecraft:powered_comparator",
+                "minecraft:daylight_detector",
+                "minecraft:daylight_detector_inverted"
+            ],
+            "TicksPerUpdate" : 5
+        },
+
+        {
+            "Name" : "JungleTags",
+            "Type" : "BiomeTagCounter",
+            "Scanner" : "LS",
+            "Tag" : "JUNGLE"
+        },
+
+        {
+            "Name" : "ConiferousTags",
+            "Type" : "BiomeTagCounter",
+            "Scanner" : "LS",
+            "Tag" : "CONIFEROUS"
+        },
+
+        {
+            "Name" : "SavannaTags",
+            "Type" : "BiomeTagCounter",
+            "Scanner" : "LS",
+            "Tag" : "SAVANNA"
+        },
+
+        {
+            "Name" : "SwampTags",
+            "Type" : "BiomeTagCounter",
+            "Scanner" : "LS",
+            "Tag" : "SWAMP"
+        },
+
+        {
+            "Name" : "Foliage",
+            "Type" : "BlockCounter",
+            "Scanner" : "LS",
+            "Blocks" : [
+                "treeLeaves",
+                "logWood"
+            ]
+        },
+
+        {
+            "Name" : "Grass",
+            "Type" : "BlockCounter",
+            "Scanner" : "LS",
+            "Blocks" : [
+                "minecraft:grass",
+                "minecraft:tallgrass",
+                "minecraft:yellow_flower",
+                "minecraft:red_flower"
+            ]
+        },
+
+        {
+            "Name" : "ColdBlocks",
+            "Type" : "BlockCounter",
+            "Scanner" : "LS",
+            "Blocks" : [
+                "minecraft:snow",
+                "minecraft:ice",
+                "minecraft:snow_layer",
+                "minecraft:packed_ice"
+            ]
+        },
+
+        {
+            "Name" : "Air",
+            "Type" : "BlockCounter",
+            "Scanner" : "LS",
+            "Blocks" : [
+                "minecraft:air"
+            ]
+        },
+
+        {
+            "Name" : "Water",
+            "Type" : "BlockCounter",
+            "Scanner" : "LS",
+            "Blocks" : [
+                "minecraft:flowing_water",
+                "minecraft:water"
+            ]
+        },
+
+        {
+            "Name" : "Humidity",
+            "Type" : "BiomeAverage",
+            "Scanner" : "LS",
+            "SubType" : "HUMIDITY"
+        },
+
+        {
+            "Name" : "Temperature",
+            "Type" : "BiomeAverage",
+            "Scanner" : "LS",
+            "SubType" : "TEMPERATURE"
+        },
+
+        {
+            "Name" : "Salinity",
+            "Type" : "BiomeAverage",
+            "Scanner" : "LS",
+            "SubType" : "SALINITY"
+        },
+
+        {
+            "Name" : "SunLevel",
+            "Type" : "BiomeAverage",
+            "Scanner" : "LS",
+            "SubType" : "MAXSUN"
+        },
+		
+		{
+            "Name" : "DeadTags",
+            "Type" : "BiomeTagCounter",
+            "Scanner" : "LS",
+            "Tag" : "DEAD"
+        }
+    ],
+
+    "Macros" : [
+        {
+            "Name" : "IsDay",
+            "Type" : "Macro",
+            "Code" : "(World.Time >= 500 && World.Time <= 12500)"
+        },
+
+        {
+            "Name" : "BugPlants",
+            "Type" : "Macro",
+            "Code" : "((LS.Grass + LS.Foliage)/LS.Size >= 0.005)"
+        },
+
+        {
+            "Name" : "Muffle",
+            "Type" : "Macro",
+            "Code" : "(Player.IsExposed ? 1.0 : .05)"
+        },
+
+        {
+            "Name" : "UnderGround",
+            "Type" : "Macro",
+            "Code" : "Player.Y < 65 && LS.SunLevel < 4.0"
+        },
+
+        {
+            "Name" : "IsJungle",
+            "Type" : "Macro",
+            "Code" : "LS.JungleTags/LS.Size >= 0.60"
+        },
+
+        {
+            "Name" : "IsConiferous",
+            "Type" : "Macro",
+            "Code" : "LS.ConiferousTags/LS.Size >= 0.60"
+        },
+
+        {
+            "Name" : "IsSavanna",
+            "Type" : "Macro",
+            "Code" : "LS.SavannaTags/LS.Size >= 0.60"
+        },
+
+        {
+            "Name" : "IsSwamp",
+            "Type" : "Macro",
+            "Code" : "LS.SwampTags/LS.Size >= 0.60"
+        },
+		
+		{
+            "Name" : "IsDead",
+            "Type" : "Macro",
+            "Code" : "LS.DeadTags/LS.Size >= 0.50"
+        },
+		
+		{
+            "Name" : "IsSpace",
+            "Type" : "Macro",
+            "Code" : "World.Biome == 'space'"
+        }
+    ]
+}

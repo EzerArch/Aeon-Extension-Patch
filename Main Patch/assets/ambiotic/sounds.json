@@ -1,0 +1,20 @@
+{
+	"bkgs.mars_wind_loop": {
+        "category": "ambient", 
+        "sounds": [
+            {
+                "name": "bkgs/mars_wind_loop", 
+                "stream": true
+            }
+        ]
+    },
+	"bkgs.titan_wind_loop": {
+        "category": "ambient", 
+        "sounds": [
+            {
+                "name": "bkgs/titan_wind_loop", 
+                "stream": true
+            }
+        ]
+    }
+}
