@@ -35,5 +35,11 @@
       "mob/irongolem/walk3",
       "mob/irongolem/walk4"
     ]
+  },
+  "random.breath": {
+    "category": "neutral",
+    "sounds": [
+      "random/breath"
+    ]
   }
 }
