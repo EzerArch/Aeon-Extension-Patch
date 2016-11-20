@@ -10,7 +10,7 @@ This is a patch made for one of the best futuristic and modern texture packs, Ae
 **Downloads, Info and Credits:** [Resource pack page](http://www.ezerarch.com/resourcepacks.html)
 
 
-*** License ***
+# License
 
 1. Do not make money directly from this pack itself or its parts.
 
