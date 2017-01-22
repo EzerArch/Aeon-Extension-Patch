@@ -1,0 +1,5 @@
+# Stained Glass Block - Cyan
+matchBlocks=minecraft:stained_glass
+metadata=9
+method=ctm
+tiles=0-46

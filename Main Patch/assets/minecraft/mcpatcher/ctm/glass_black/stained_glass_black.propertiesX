@@ -1,0 +1,5 @@
+# Stained Glass Block - Black
+matchBlocks=minecraft:stained_glass
+metadata=15
+method=ctm
+tiles=0-46

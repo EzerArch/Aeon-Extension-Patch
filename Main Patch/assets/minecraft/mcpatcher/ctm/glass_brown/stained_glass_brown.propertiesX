@@ -1,0 +1,5 @@
+# Stained Glass Block - Brown
+matchBlocks=minecraft:stained_glass
+metadata=12
+method=ctm
+tiles=0-46

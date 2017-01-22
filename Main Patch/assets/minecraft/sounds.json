@@ -36,6 +36,74 @@
       "mob/irongolem/walk4"
     ]
   },
+    "mob.villager.death": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/death"
+    ]
+  },
+  "mob.villager.haggle": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/haggle1",
+      "mob/villager/haggle2",
+      "mob/villager/haggle3"
+    ]
+  },
+  "mob.villager.hit": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/hit1",
+      "mob/villager/hit2",
+      "mob/villager/hit3",
+      "mob/villager/hit4"
+    ]
+  },
+  "mob.villager.idle": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/idle1",
+      "mob/villager/idle2",
+      "mob/villager/idle3"
+    ]
+  },
+  "mob.villager.no": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/no1",
+      "mob/villager/no2",
+      "mob/villager/no3"
+    ]
+  },
+  "mob.villager.yes": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/yes1",
+      "mob/villager/yes2",
+      "mob/villager/yes3"
+    ]
+  },
+  "mob.witch.death": {
+    "category": "hostile",
+    "sounds": [
+      "mob/witch/death1",
+	  "mob/witch/death2"
+    ]
+  },
+  "mob.witch.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "mob/witch/hurt1",
+      "mob/witch/hurt2"
+    ]
+  },
+  "mob.witch.idle": {
+    "category": "hostile",
+    "sounds": [
+      "mob/witch/idle1",
+      "mob/witch/idle2"
+    ]
+  },
   "random.breath": {
     "category": "neutral",
     "sounds": [

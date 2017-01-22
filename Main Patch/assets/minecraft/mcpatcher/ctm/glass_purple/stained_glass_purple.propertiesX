@@ -1,0 +1,5 @@
+# Stained Glass Block - Purple
+matchBlocks=minecraft:stained_glass
+metadata=10
+method=ctm
+tiles=0-46
