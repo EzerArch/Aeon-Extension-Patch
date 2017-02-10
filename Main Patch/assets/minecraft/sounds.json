@@ -6,6 +6,12 @@
       "mob/chicken/step2"
     ]
   },
+  "mob.endermen.stare": {
+    "category": "hostile",
+    "sounds": [
+      "mob/endermen/stare"
+    ]
+  },
   "mob.irongolem.death": {
     "category": "neutral",
     "sounds": [
@@ -87,7 +93,7 @@
     "category": "hostile",
     "sounds": [
       "mob/witch/death1",
-	  "mob/witch/death2"
+      "mob/witch/death2"
     ]
   },
   "mob.witch.hurt": {
@@ -108,6 +114,68 @@
     "category": "neutral",
     "sounds": [
       "random/breath"
+    ]
+  },
+  "eating": {
+    "category": "neutral",
+    "sounds": [
+      "ots/eating"
+    ]
+  },
+  "step.anvil": {
+    "category": "neutral",
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ]
+  },
+  "none": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ots/beep1",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep2",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep4",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep5",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep6",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none1",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none2",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none3",
+        "pitch": 0.4,
+        "volume": 0.6
+      }
     ]
   }
 }
