@@ -1,0 +1,15 @@
+# Translation EN-US
+
+tile.bed.noSleep=LAZY! We require more minerals.
+tile.bed.tooFarAway=Get closer, the bed does not bite.
+tile.bed.notSafe=You cannot sleep now, your neighbors are having a party!
+
+item.record.11.desc=Jens Kiilstofte - Dance of the Pixies
+
+entity.Villager.name=Bot-Villager
+entity.ZombieVillager.name=Zombie Bot-Villager
+
+stat.talkedToVillager=Talked to Bot-Villagers
+stat.tradedWithVillager=Traded with Bot-Villagers
+
+death.attack.indirectMagic=%1$s was killed by %2$s using chemical agent

@@ -1,0 +1,190 @@
+{
+  "mob.chicken.step": {
+    "category": "neutral",
+    "sounds": [
+      "mob/chicken/step1",
+      "mob/chicken/step2"
+    ]
+  },
+  "entity.enderman.stare": {
+    "category": "hostile",
+    "sounds": [
+      "mob/endermen/stare"
+    ]
+  },
+  "entity.iron_golem.death": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/death"
+    ]
+  },
+  "entity.iron_golem.hit": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/hit1",
+      "mob/irongolem/hit2",
+      "mob/irongolem/hit3",
+      "mob/irongolem/hit4"
+    ]
+  },
+  "entity.iron_golem.throw": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/throw"
+    ]
+  },
+  "entity.iron_golem.walk": {
+    "category": "neutral",
+    "sounds": [
+      "mob/irongolem/walk1",
+      "mob/irongolem/walk2",
+      "mob/irongolem/walk3",
+      "mob/irongolem/walk4"
+    ]
+  },
+    "mob.villager.death": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/death"
+    ]
+  },
+  "mob.villager.haggle": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/haggle1",
+      "mob/villager/haggle2",
+      "mob/villager/haggle3"
+    ]
+  },
+  "mob.villager.hit": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/hit1",
+      "mob/villager/hit2",
+      "mob/villager/hit3",
+      "mob/villager/hit4"
+    ]
+  },
+  "mob.villager.idle": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/idle1",
+      "mob/villager/idle2",
+      "mob/villager/idle3"
+    ]
+  },
+  "mob.villager.no": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/no1",
+      "mob/villager/no2",
+      "mob/villager/no3"
+    ]
+  },
+  "mob.villager.yes": {
+    "category": "neutral",
+    "sounds": [
+      "mob/villager/yes1",
+      "mob/villager/yes2",
+      "mob/villager/yes3"
+    ]
+  },
+  "entity.witch.death": {
+    "category": "hostile",
+    "sounds": [
+      "entity/witch/death1",
+      "entity/witch/death2",
+      "entity/witch/death3"
+    ]
+  },
+  "entity.witch.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "entity/witch/hurt1",
+      "entity/witch/hurt2",
+      "entity/witch/hurt3"
+    ]
+  },
+  "entity.witch.idle": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "entity/witch/ambient5",
+        "pitch": 0.9
+      },
+      "entity/witch/ambient1",
+      "entity/witch/ambient2",
+      "entity/witch/ambient3",
+      "entity/witch/ambient4",
+      "entity/witch/ambient5"
+    ]
+  },
+  "entity.player.breath": {
+    "category": "neutral",
+    "sounds": [
+      "random/breath"
+    ]
+  },
+  "entity.horse.eat": {
+    "category": "neutral",
+    "sounds": [
+      "entity/horse/eat1"
+    ]
+  },
+  "step.anvil": {
+    "category": "neutral",
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ]
+  },
+  "none": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ots/beep1",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep2",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep4",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep5",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/beep6",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none1",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none2",
+        "pitch": 0.4,
+        "volume": 0.6
+      },
+      {
+        "name": "ots/none3",
+        "pitch": 0.4,
+        "volume": 0.6
+      }
+    ]
+  }
+}

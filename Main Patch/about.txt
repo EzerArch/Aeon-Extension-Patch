@@ -26,9 +26,9 @@ Feel free to contact me if you need to ask something.
 
 - Mars and Venus graphics by Space Viking from Galacticraft devteam: http://micdoodle8.com/mods/galacticraft
 
-- Nether Star, Wither Skull, Cookie, Wither, Wither Skeleton, Minecart, Potatoes, Pumpkin Pie, Compass, Iron Golem, Seeds and Flower Pot graphics from LEDCraft by Vickal1 (see FAQ in the section 6, 4th question): http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1240612-1-5-1-1-5-32x-ledcraft-modern-look-with-led-torch
+- Nether Star, Wither Skull, Cookie, Wither, Wither Skeleton, Minecart, Potatoes, Pumpkin Pie, Compass, Iron Golem, Seeds, Flower Pot and several other graphics from LEDCraft by Vickal1 (for permission, see FAQ in the section 6, 4th question): http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1240612-1-5-1-1-5-32x-ledcraft-modern-look-with-led-torch (put this link on Wayback Machine site)
 
-- Disc 11 - Music used: "Dance of the Pixies" by Jens Kiilstofte (CC-BY): https://machinimasound.com/music/dance-of-the-pixies
+- Disc 11 - Music used: "Dance of the Pixies" by Jens Kiilstofte (CC-BY license): https://machinimasound.com/music/dance-of-the-pixies
 
 - Iron Golem sound effects: AGMoneyTrigga (https://www.freesound.org/people/AGMoneyTrigga/sounds/231347/) and Skullsmasha (https://www.freesound.org/people/Skullsmasha/sounds/123253/), CC0 license.
 
@@ -39,7 +39,7 @@ Full credits here: http://ezerarch.com/resourcepacks.html#Credits
 
 Site: http://www.ezerarch.com
 
-YouTube channel: http://www.youtube.com/EzerArch
+YouTube channel, featuring this resource pack: http://www.youtube.com/EzerArch
 
 Twitch channel: http://www.twitch.tv/ezerarch
 

@@ -2,9 +2,6 @@ itemGroup.jaff=Just a Few Fish
 
 tile.tank.name=Aquário
 
-item.fish_spawn_egg.name=Invocar
-item.fish_bucket.name=Balde com
-item.iron_nugget.name=Pepita de Ferro
 item.iron_hook.name=Anzol de Ferro
 item.fish_bones.name=Espinha de Peixe
 item.wooden_fishing_rod.name=Vara de Pescar de Madeira
@@ -12,15 +9,34 @@ item.iron_fishing_rod.name=Vara de Pescar de Ferro
 item.golden_fishing_rod.name=Vara de Pescar de Ouro
 item.diamond_fishing_rod.name=Vara de Pescar de Diamante
 
+item.fish_bucket_cod.name=Balde com Bacalhau
+item.fish_bucket_salmon.name=Balde com Salmão
+item.fish_bucket_clownfish.name=Balde com Palhaço
+item.fish_bucket_pufferfish.name=Balde com Baiacu
+
 bait.seeds.name=Sementes
 bait.worms.name=Minhocas
 
-entity.jaff.FishCod.name=Bacalhau
-entity.jaff.FishSalmon.name=Salmão
-entity.jaff.FishClown.name=Peixe-Palhaço
-entity.jaff.FishPuffer.name=Baiacu
+entity.cod.name=Bacalhau
+entity.salmon.name=Salmão
+entity.clownfish.name=Peixe-Palhaço
+entity.pufferfish.name=Baiacu
+entity.iron_fish_hook.name=Anzol de Ferro
 
-rod.info.bait=Isca: 
-rod.info.of= de 
+rod.info.bait=Isca: %1$s de %2$s
 
 enchantment.fireFishingRod=Assador
+
+subtitles.item.rod.reel=Vara de Pesca Rebobina
+
+advancements.story.iron_hook.title=Pescaria de Ponta
+advancements.story.iron_hook.description=Crie um anzol de ferro
+
+advancements.husbandry.bait_hook.title=A Comida Favorita de um Peixe
+advancements.husbandry.bait_hook.description=Coloque sementes em volta de uma vara de pesca JAFF para pôr isca
+advancements.husbandry.jaff_fish.title=Eu Peguei Um Peixe!
+advancements.husbandry.jaff_fish.description=Pege um peixe
+advancements.husbandry.fish_bucket.title=Pegue e Solte
+advancements.husbandry.fish_bucket.description=Pegue um amigo "suspeito" com um balde de água no seu hotbar
+advancements.husbandry.fish_tank.title=Você Pode Cultivá-los?
+advancements.husbandry.fish_tank.description=Crie um bloco de aquário
