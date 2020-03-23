@@ -1,6 +1,6 @@
 *** Instructions ***
 
-Thanks for downloading Aeon Extension Patch - Vanilla theme, created and organized by Ezer'Arch (ezerarch.com).
+Thanks for downloading Aeon Extension Patch, created and organized by Ezer'Arch (ezerarch.com).
 
 This is a patch made for one of the best futuristic and modern texture packs, Aeon by thesparko. Aeon main pack is required!
 
@@ -31,6 +31,8 @@ Feel free to contact me if you need to ask something.
 - Disc 11 - Music used: "Dance of the Pixies" by Jens Kiilstofte (CC-BY): https://machinimasound.com/music/dance-of-the-pixies
 
 - Iron Golem sound effects: AGMoneyTrigga (https://www.freesound.org/people/AGMoneyTrigga/sounds/231347/) and Skullsmasha (https://www.freesound.org/people/Skullsmasha/sounds/123253/), CC0 license.
+
+Full credits here: http://ezerarch.com/resourcepacks.html#Credits
 
 
 *** Contact Info ***
