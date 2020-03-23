@@ -1,8 +1,10 @@
 # Aeon Extension Patch
 
-Aeon Extension Patch is a resource pack that fixes and fills in the gaps of the original Aeon, and adds support to mods, such as Galacticraft, Mekanism, MPS, Bibliocraft, Et Futurum, Carpenter's Blocks and Ambiotic.
+Aeon Extension Patch is a resource pack that fixes and fills in the gaps of the original Aeon, by TheSparko (https://www.planetminecraft.com/member/thesparko/), and adds support to mods, such as Galacticraft, Mekanism, Modular Power Armor, Dynamic Surroundings, Bibliocraft, Carpenter's Blocks and Traincraft.
 
-This is a patch made for one of the best futuristic and modern texture packs, Aeon by thesparko. Aeon main pack is required!
+This is a patch made for one of the best futuristic and modern texture packs. **Aeon main pack is required!**
+
+Featured in the modded Minecraft video series ArchWorld, by Ezer'Arch himself, along with the mods above: https://www.youtube.com/playlist?list=PLBWqae2CBZiGetArLv1axaPQmqD0KVRHh
 
 
 # Downloads
@@ -26,4 +28,4 @@ Feel free to contact me if you need to ask something.
 * [Official site](http://www.ezerarch.com/)
 * [Twitter](http://twitter.com/EzerArch)
 * [YouTube](http://www.youtube.com/EzerArch)
-* [G+](http://gplus.ezerarch.com/)
+* [Reddit](https://www.reddit.com/user/EzerArch)
