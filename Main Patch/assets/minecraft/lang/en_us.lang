@@ -8,6 +8,7 @@ item.record.11.desc=Jens Kiilstofte - Dance of the Pixies
 
 entity.Villager.name=Bot-Villager
 entity.ZombieVillager.name=Zombie Bot-Villager
+entity.Witch.name=Bot-Witch
 
 stat.talkedToVillager=Talked to Bot-Villagers
 stat.tradedWithVillager=Traded with Bot-Villagers
