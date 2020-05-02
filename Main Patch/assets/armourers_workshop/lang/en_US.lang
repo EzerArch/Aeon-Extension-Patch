@@ -1,0 +1,5 @@
+# FIX
+
+entity.armourers_workshop:mannequin.name=Mannequin
+entity.armourers_workshop:mannequin.small.name=Doll
+entity.armourers_workshop:mannequin.big.name=Giant
